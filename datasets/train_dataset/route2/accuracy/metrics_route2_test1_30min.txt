@@ -1,0 +1,10 @@
+mse_lon: 0.1507
+mse_lat: 0.2272
+mse_avg: 0.1890
+mae_lon: 0.3460
+mae_lat: 0.4301
+mae_avg: 0.3880
+aed: 0.6019
+smape_lon: 0.0032
+smape_lat: 0.0567
+smape_avg: 0.0299
