@@ -1,36 +1,36 @@
 # 🚀 GRUforTrajectories
 
-> 时序轨迹数据，支持数据预处理、模型训练与可视化分析
+> Disclaimer:​​ The following content is **an AI-generated README template** only and should not be used for actual experimental content in this project.
 
 [![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![GitHub Last Commit](https://img.shields.io/github/last-commit/user/project)
 
-## 🧭 目录
-- [项目概述](#-项目概述)
-- [系统特性](#-系统特性)
-- [技术架构](#-技术架构)
-- [安装指南](#-安装指南)
-- [快速开始](#-快速开始)
-- [工作流程](#-工作流程)
-- [性能指标](#-性能指标)
-- [配置说明](#-配置说明)
-- [可视化界面](#-可视化界面)
-- [贡献指南](#-贡献指南)
-- [许可证](#-许可证)
-- [支持与联系方式](#-支持与联系方式)
+## 🧭 Table of Contents
+- [Project Overview](#-project-overview)
+- [Key Features](#-key-features)
+- [Technical Architecture](#-technical-architecture)
+- [Installation Guide](#-installation-guide)
+- [Quick Start](#-quick-start)
+- [Workflow](#-workflow)
+- [Performance Metrics](#-performance-metrics)
+- [Configuration](#-configuration)
+- [Visualization Interface](#-visualization-interface)
+- [Contribution Guidelines](#-contribution-guidelines)
+- [License](#-license)
+- [Support & Contact](#-support--contact)
 
-## 🚩 项目概述
-本项目提供完整的时序轨迹数据处理与分析解决方案，包含数据预处理、特征工程、模型训练、结果评估和可视化等模块。系统支持多种轨迹数据类型，可用于交通流量预测、行为分析、异常检测等应用场景。
+## 🚩 Project Overview
+This project provides a complete solution for temporal trajectory data processing and analysis, including data preprocessing, feature engineering, model training, result evaluation, and visualization modules. The system supports various trajectory data types and can be used for traffic flow prediction, behavior analysis, anomaly detection, and other applications.
 
-## ⚡ 系统特性
-- **端到端处理**：原始数据到可视化结果的一站式解决方案
-- **高性能处理**：优化内存管理，支持大规模数据集
-- **模块化设计**：灵活替换各处理阶段组件
-- **可视化分析**：内置交互式结果分析工具
-- **多算法支持**：集成多种时序预测模型
+## ⚡ Key Features
+- **End-to-end processing**: One-stop solution from raw data to visualized results
+- **High-performance processing**: Optimized memory management supporting large-scale datasets
+- **Modular design**: Flexible replacement of processing components
+- **Visualization tools**: Built-in interactive result analysis tools
+- **Multi-algorithm support**: Integrated time series prediction models
 
-## 🧱 技术架构
+## 🧱 Technical Architecture
 
 ## 📦 安装指南
 ### 前置要求
@@ -39,29 +39,45 @@
 
 ### 安装步骤
 
-## 📊 性能指标 [非实验数据]
-### 模型比较 (RMSE指标)
-| 模型类型       | 训练时间 | 预测精度 | 内存占用 |
-|----------------|----------|----------|----------|
-| LSTM           | 2h 15m   | 4.23     | 1.8GB    |
-| TCN            | 1h 40m   | 3.98     | 1.2GB    |
-| Transformer    | 3h 05m   | **3.72** | 2.4GB    |
+## 📊 Performance Metrics [Non-experimental Data]
+### Model Comparison (RMSE Metric)
+| Model Type     | Training Time | Accuracy | Memory Usage |
+|----------------|--------------|----------|--------------|
+| LSTM           | 2h 15m       | 4.23     | 1.8GB        |
+| TCN            | 1h 40m       | 3.98     | 1.2GB        |
+| Transformer    | 3h 05m       | **3.72** | 2.4GB        |
 
-### 结果示例
-| 时间戳          | 实际值 | LSTM预测 | TCN预测 | Transformer预测 |
-|-----------------|--------|----------|---------|-----------------|
-| 2023-01-01 08:00| 42.1   | 41.3     | 42.0    | **41.8**        |
-| 2023-01-01 08:05| 45.2   | 44.7     | 44.9    | **44.8**        |
-| 2023-01-01 08:10| 48.6   | 47.1     | 48.2    | **48.1**        |
+### Result Samples
+| Timestamp       | Actual | LSTM Pred | TCN Pred | Transformer Pred |
+|-----------------|--------|-----------|----------|------------------|
+| 2023-01-01 08:00| 42.1   | 41.3      | 42.0     | **41.8**         |
+| 2023-01-01 08:05| 45.2   | 44.7      | 44.9     | **44.8**         |
+| 2023-01-01 08:10| 48.6   | 47.1      | 48.2     | **48.1**         |
 
-## ⚙️ 配置说明
+## 📈 Result Visualization
 
+### Selected Experimental Results
+We've selected representative results from different routes and test durations:
 
+#### 1. Route 1 - 45-minute Test
+![Route1-45min](outputs/plots/result_route1_test1_45min.png)  
+*Fig: Trajectory prediction vs actual values for Route 1 (45-minute duration)*
 
-## 📜 许可证
-本项目采用 [MIT 许可证](LICENSE)
+#### 2. Route 2 - 30-minute Test
+![Route2-30min](outputs/plots/result_route2_test1_30min.png)  
+*Fig: Prediction accuracy for Route 2 (30-minute duration)*
 
-## 📞 支持与联系方式
-如有问题或建议：
-- 提交 [GitHub Issues](https://github.com/your-username/project-name/issues)
-- 联系项目维护者: contact@example.com
+#### 3. Route 1 - 60-minute Full Test
+![Route1-60min](outputs/plots/result_route1_test1_60min.png)  
+*Fig: Long-term prediction capability for Route 1 (60-minute duration)*
+
+## ⚙️ Configuration
+Main configuration files are located in `configs/` directory:
+
+## 📜 License
+This project is licensed under the [MIT License](LICENSE)
+
+## 📞 Support & Contact
+For questions or suggestions:
+- Open [GitHub Issues](https://github.com/your-username/project-name/issues)
+- Contact maintainer: contact@example.com
